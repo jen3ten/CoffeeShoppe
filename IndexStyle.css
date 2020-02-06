@@ -35,7 +35,7 @@
     background-color: darkslateblue;
     grid-column: 1/ span 8;
     grid-row: 4/ span end;
-    background-image: url('Pages/Images/FrontOfBuilding_1499x500.jpg');
+    background-image: url('Images/FrontOfBuilding_1499x500.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }

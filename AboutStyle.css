@@ -1,6 +1,5 @@
 ﻿.container {
     display: grid;
-    /*grid-gap:8px, 8px;*/
     grid-template-columns: repeat(8,auto);
     grid-template-rows: repeat(8, 100px);
     max-width: 1500px;
@@ -23,8 +22,6 @@
 }
 
 .navBar {
-    /*display: flex;*/
-    /*background-color: blueviolet;*/
     grid-column: 1 / span 8;
     text-shadow: 3px 2px yellow;
     font-size: 24px;
@@ -37,7 +34,6 @@
     background-color: darkslateblue;
     grid-column: 1/ span 8;
     grid-row: 4/ span end;
-    
 }
 
 ul {
@@ -115,6 +111,7 @@ ul {
         transform: translateX(-100%);
     }
 }
+
 a {
     color: inherit;
     text-decoration: inherit

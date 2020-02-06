@@ -1,13 +1,12 @@
 ﻿.container {
     display: grid;
-    /*grid-gap:8px, 8px;*/
     grid-template-columns: repeat(8,auto);
     grid-template-rows: repeat(8, 100px);
     max-width: 1500px;
     margin:2rem auto;
     width:90%
-    
 }
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -21,8 +20,8 @@
     font-family: Impact, Charcoal, sans-serif;
     text-decoration: overline;
 }
+
 .navBar {
-    /*display: flex;*/
     background-color: #670300;
     grid-column: 1 / span 8;
     text-shadow: 3px 2px yellow;
@@ -31,6 +30,7 @@
     font-family: Impact, Charcoal, sans-serif;
     text-decoration: overline;
 }
+
 .frontPic {
     background-color: darkslateblue;
     grid-column: 1/ span 8;
@@ -39,6 +39,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 ul {
     display: flex;
     height: inherit;
@@ -49,10 +50,9 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content:space-around;
-    
 }
+
 .scroll-left {
-    
     overflow: hidden;
     position: relative;
     grid-column: 1 / span 8;
@@ -120,7 +120,3 @@ a{
     color:inherit;
     text-decoration: inherit
 }
-
-
-
-
